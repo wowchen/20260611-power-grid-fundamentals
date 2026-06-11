@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark" data-fs="m">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电网通识 · Power Grid 101</title>
+<meta name="description" content="用大白话中文讲透中国电力/电网行业:发输变配用、调度、电力市场、新能源、储能、双碳。零基础一看就懂,术语点哪查哪。">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- 侧边图签索引(引擎渲染) -->
+<nav class="thumb" id="thumbNav" aria-label="模块索引"></nav>
+
+<header class="site">
+  <div class="masthead">
+    <a class="brand" href="#/">电网通识<small>POWER GRID 101</small></a>
+    <nav class="top" id="topNav">
+      <a href="#/" data-nav="home">首页</a>
+      <a href="#/path" data-nav="path">学习路线</a>
+      <a href="#/terms" data-nav="terms">术语表</a>
+      <a href="#/book" data-nav="book">术语本 <b id="navTermCount"></b></a>
+      <a href="#/search" data-nav="search">搜索</a>
+      <a href="#/settings" data-nav="settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <noscript><p style="padding:40px 0">本站需要启用 JavaScript 才能运行。</p></noscript>
+</main>
+
+<footer class="site">
+  <span>电网通识 · 纯静态 · 零依赖 · 离线可用</span>
+  <span id="syncStatus">进度:仅本机</span>
+</footer>
+
+<!-- 引擎(不要在内容工作中改动 assets/ 下任何文件) -->
+<script src="assets/js/registry.js"></script>
+<script src="assets/js/progress.js"></script>
+<script src="assets/js/sync.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/terms.js"></script>
+<script src="assets/js/views-home.js"></script>
+<script src="assets/js/views-lesson.js"></script>
+<script src="assets/js/views-tools.js"></script>
+
+<!-- 元数据:模块 + 学习路线 + 术语库 -->
+<script src="content/modules.js"></script>
+<script src="content/terms.js"></script>
+
+<!-- 课程内容(新增课程文件后,在下方按模块分组、按 order 顺序追加 script 标签) -->
+<!-- 模块 2 · 电的物理通识 -->
+<script src="content/basics/01-kwh.js"></script>
+<script src="content/basics/05-no-storage.js"></script>
+
+<!-- 引擎启动(必须在所有内容之后) -->
+<script src="assets/js/engine.js"></script>
+</body>
+</html>
