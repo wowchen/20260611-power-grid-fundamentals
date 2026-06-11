@@ -2,7 +2,7 @@
 
 用大白话**中文**讲透**中国电力/电网行业**的零基础自学站。一看就懂,术语点哪查哪。
 
-**在线使用(手机 / 电脑 / 平板都行):** https://wowchen.github.io/power-grid-101/
+**在线使用(手机 / 电脑 / 平板都行):** https://wowchen.github.io/20260611-power-grid-fundamentals/
 
 打开网址即可,**无需注册、无需安装、无需任何配置**。
 
