@@ -5,8 +5,8 @@
 
 ## 线上地址与部署(2026-06-11 上线)
 
-- **线上站点(手机/电脑/平板均可)**:https://wowchen.github.io/power-grid-101/
-- **GitHub 仓库**:https://github.com/wowchen/power-grid-101(public,账号 `wowchen`)
+- **线上站点(手机/电脑/平板均可)**:https://wowchen.github.io/20260611-power-grid-fundamentals/
+- **GitHub 仓库**:https://github.com/wowchen/20260611-power-grid-fundamentals(public,账号 `wowchen`)
 - **托管方式**:GitHub Pages,`main` 分支根目录 `/`,提交后约 1 分钟自动重新构建上线。
 - **提交身份**:本仓库 `user.email=wowchen@126.com`(`git config` 仅本仓库,不影响全局)。
 - **重要**:此仓库是**独立仓库**,仅含本项目,切勿把其它项目混进来推送。
@@ -21,7 +21,7 @@ git commit -m "说明改动"            # 作者已固定为 wowchen@126.com
 git push                            # 推 origin/main,Pages 约 1 分钟后自动更新
 ```
 
-- 查 Pages 构建状态:`gh api repos/wowchen/power-grid-101/pages -q .status`(`built` = 已上线)。
+- 查 Pages 构建状态:`gh api repos/wowchen/20260611-power-grid-fundamentals/pages -q .status`(`built` = 已上线)。
 
 **架构与决策依据见 `需求与讨论.md`(10 条 ADR + 体验原则),不要违背它。**
 `design/` 是风格选型稿,**保留,不要删除**;定稿为**风格 A 工程蓝图**(深=蓝晒图纸默认,浅=白图纸),全站样式令牌在 `assets/css/main.css` 顶部。
